@@ -1,0 +1,66 @@
+
+
+   
+   
+   {
+        "data": [ 
+         
+                
+              {
+                  "id": 1,
+                  "lang": "c++",
+                  "percentage": 45
+                  
+                  
+                },
+                {
+                  "id": 2,
+                  "lang": "JavaScript",
+                  "percentage": 70
+                  
+                },
+                {
+                  "id": 3,
+                  "lang": "Python",
+                  "percentage": 85
+                 
+                },
+                {
+                  "id": 4,
+                  "lang": "HTML",
+                  "percentage": 60
+                }
+      
+             ],
+    
+         
+    
+        "cyber" : [
+            {
+                "id":1,
+                "feild":"Network Pentesting",
+                "percentage":50
+            
+            },
+
+            {
+                "id":2,
+                "feild":"WAPT",
+                "percentage":50
+            
+            },
+            {
+                "id":3,
+                "feild":"IOT-pentesting",
+                "percentage":50
+            
+            },
+            {
+                "id":4,
+                "feild":"VAPT",
+                "percentage":50
+            
+            }
+        ]
+    }
+         
