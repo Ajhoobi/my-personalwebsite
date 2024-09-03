@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const DATA_SOURCE_URL = "http://localhost:4100/users/blog"
+const DATA_SOURCE_URL = "https://backend-five-sooty.vercel.app/data/blog"
 
 const API_KEY: string = process.env.DATA_API_KEY as string
 

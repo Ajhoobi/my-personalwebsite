@@ -1,6 +1,6 @@
 
 import { NextResponse}  from "next/server"
-const DATA_SOURCE_URL = "http://localhost:4100/users/blogfocus?id="
+const DATA_SOURCE_URL = "https://backend-five-sooty.vercel.app/data/blogfocus?id="
 
 export async function GET(request: Request) {
 const origin = request.headers.get('origin')
