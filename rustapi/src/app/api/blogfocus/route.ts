@@ -11,7 +11,7 @@ const origin = request.headers.get('origin')
 try{
 
     const { searchParams} = new URL(request.url)
-    const id = searchParams.get('id');
+    const id = searchParams.get('id') || '';
     const idInt = parseInt(id, 10)
     
     const paraMeter = searchParams.hasOwnProperty('id')
