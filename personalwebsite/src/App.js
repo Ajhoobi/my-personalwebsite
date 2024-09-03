@@ -7,7 +7,7 @@ import Skills from "../components/Skills";
 import PostsList from "../components/blog/blogLists";
 import BlogFocus from "../components/blogFocus/blogFocus";
 import Portfolio from "../components/portfolio/portfolio";
-import Test from "../components/test";
+
 // Rendered when a user visits "/list?order=DESC"
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/blog" element={<PostsList />} />
         <Route path={`/blogfocus`} element={<BlogFocus />} />
         <Route path={`/Portfolio`} element={<Portfolio />} />
-        <Route path={`/test`} element={<Test />} />
+      
       </Routes>
     </BrowserRouter>
   );

@@ -4,7 +4,7 @@ import Allitems from "./allItems";
 import Subfields from "./subfields";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import salah from "../../build/images/image.jpg"
+import salah from "../../build/images/propic.jpg"
 import RadarChart from './RadarChartDemo';
 
 function Portfolio() {
