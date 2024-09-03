@@ -29,7 +29,7 @@ router.get('/', function(req, res, next) {
   const delay = 2000
   try {
     setTimeout(() => {
-      res.json({ data : jsonData.data , cyber : jsonData.cyber});
+      res.json({ fields : jsonData.fields });
     }, delay);
    
    

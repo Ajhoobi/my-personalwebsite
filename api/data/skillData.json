@@ -1,66 +1,65 @@
-
-
-   
-   
-   {
-        "data": [ 
-         
-                
-              {
-                  "id": 1,
-                  "lang": "c++",
-                  "percentage": 45
-                  
-                  
-                },
-                {
-                  "id": 2,
-                  "lang": "JavaScript",
-                  "percentage": 70
-                  
-                },
-                {
-                  "id": 3,
-                  "lang": "Python",
-                  "percentage": 85
-                 
-                },
-                {
-                  "id": 4,
-                  "lang": "HTML",
-                  "percentage": 60
-                }
-      
-             ],
-    
-         
-    
-        "cyber" : [
-            {
-                "id":1,
-                "feild":"Network Pentesting",
-                "percentage":50
-            
-            },
-
-            {
-                "id":2,
-                "feild":"WAPT",
-                "percentage":50
-            
-            },
-            {
-                "id":3,
-                "feild":"IOT-pentesting",
-                "percentage":50
-            
-            },
-            {
-                "id":4,
-                "feild":"VAPT",
-                "percentage":50
-            
-            }
-        ]
+{
+  "fields": [
+    {
+      "id": 1,
+      "name": "Programming",
+      "percentage": 78,
+      "subfields": [
+        { "id": 1, "name": "C++", "percentage": 60 },
+        { "id": 2, "name": "C", "percentage": 75 },
+        { "id": 3, "name": "Python", "percentage": 70 },
+        { "id": 4, "name": "Node js", "percentage": 85 },
+        { "id": 21, "name": "react js", "percentage": 90}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cyber Security",
+      "percentage": 83,
+      "subfields": [
+        { "id": 5, "name": "Network Pentesting", "percentage": 90 },
+        { "id": 6, "name": "WAPT", "percentage": 90 },
+        { "id": 7, "name": "IOT-pentesting", "percentage": 60 },
+        { "id": 8, "name": "SOC", "percentage": 70 },
+        { "id": 22, "name": "Active Directory", "percentage": 70 }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "DevOps",
+      "percentage": 75,
+      "subfields": [
+        { "id": 9, "name": "CI/CD", "percentage": 75 },
+        { "id": 10, "name": "Docker", "percentage": 70 },
+        { "id": 11, "name": "AWS", "percentage": 80 },
+        { "id": 12, "name": "Jenkins", "percentage": 70 },
+        {"id": 23, "name": "kubernetes", "percentage": 70 },
+        {"id": 24, "name": "Nginx", "percentage": 80}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Software Engineering",
+      "percentage": 69,
+      "subfields": [
+        { "id": 13, "name": "Software Development", "percentage": 60 },
+        { "id": 14, "name": "Microservices ", "percentage": 70 },
+        { "id": 15, "name": "Test-Driven", "percentage": 55 },
+        { "id": 16, "name": "Agile ", "percentage": 65 }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Designer",
+      "percentage": 93,
+      "subfields": [
+        { "id": 17, "name": "UI/UX Design", "percentage": 85 },
+        { "id": 18, "name": "HTML", "percentage": 75 },
+        { "id": 19, "name": "Web Design", "percentage": 80 },
+        { "id": 20, "name": "CSS", "percentage": 78 },
+        {"id": 25, "name": "Tail wind", "percentage": 78 }
+      ]
     }
-         
+  ]
+  
+}
