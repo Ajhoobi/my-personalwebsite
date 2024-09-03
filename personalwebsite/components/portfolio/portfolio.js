@@ -19,7 +19,7 @@ function Portfolio() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://192.168.1.4:3001/api/skill");
+        const response = await axios.get("https://my-personalwebsite-delta.vercel.app/api/skill");
 
         setSkillSet(response.data.fields);
         setLoading(false);

@@ -35,7 +35,7 @@ const PostsList = () => {
 
   const getDynamicURL = () => {
     // Your logic to determine the URL dynamically
-    return "http://192.168.1.4:3001/api/blog"; // Update this with your dynamic URL
+    return "https://my-personalwebsite-delta.vercel.app/api/blog"; // Update this with your dynamic URL
   };
 
   const clickEffect = (e) => {

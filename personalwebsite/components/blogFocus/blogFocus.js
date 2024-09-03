@@ -12,7 +12,7 @@ function blogFocus() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://192.168.1.4:3001/api/blogfocus?id=${id}`,
+          `https://my-personalwebsite-delta.vercel.app/api/blogfocus?id=${id}`,
         );
 
         // Assuming the server response contains 'data' and 'cyber' properties
